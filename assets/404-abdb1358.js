@@ -1,0 +1,1 @@
+import{f as e,o as t,c as o,g as s,t as a}from"./index-51028c80.js";const n="/void-admin/assets/404-00e03203.svg",r=s("img",{class:"error-svg",src:n,alt:""},null,-1),c="404",p=e({__name:"404",setup(l){return(_,i)=>(t(),o("main",null,[r,s("h1",null,a(c))]))}});export{p as default};
