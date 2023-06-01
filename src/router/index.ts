@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 export const constantRoutes = [
   {
+    path: '/',
+    component: () => import('@/layouts/Layout.vue'),
+  },
+  {
     path: '/login',
     component: () => import('@/views/system/Login.vue'),
     hidden: true,

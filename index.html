@@ -7,7 +7,24 @@
     <title>Void Admin</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="app-loading">
+        <span class="loader"></span>
+        <h3>Void Admin</h3>
+      </div>
+    </div>
+    <style>
+      @import url('./src/styles/loading.css');
+      html, body {
+        padding: 0;
+        margin: 0;
+      }
+      #app {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <noscript>Your browser does not support JavaScript!</noscript>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
